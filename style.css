@@ -1,0 +1,187 @@
+body{
+    background-color:  hsl(185, 41%, 84%);
+    font-size: 24px;
+    font-family: SpaceMono;
+}
+.split{
+    letter-spacing: 5px;
+    text-align: center;
+    display: inline;
+    color:hsl(186, 14%, 43%) ;
+    font-size: 14px;
+}
+.tip-calculate{
+    height: auto;
+    width: 220px;
+    background-color: hsl(0, 0%, 100%);
+margin: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+border-radius: 10px;
+}
+.error{
+    font-size: 12px;
+}
+.doller{
+    background-image: url(images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 10px;
+    background-size: 8px;
+}
+.select{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: hsl(186, 14%, 43%);
+    word-spacing: 5px;
+}
+button{
+    height: 30px;
+    width: 45%;
+    background-color:hsl(183, 100%, 15%);
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    border-radius: 3px;
+    border: none;
+}
+button:focus{
+    background-color: hsl(172, 67%, 45%);
+    font-size: 15px;
+    color: hsl(183, 100%, 15%);
+}
+#custom{
+    width: 44%;
+    height: 30px;
+   text-align: left;
+   font-size: 16px;
+}
+label{
+    font-size: 12px;
+    color:hsl(186, 14%, 43%);
+    font-weight: 400;
+    word-spacing: 5px;
+}
+input{
+height: 30px;
+background-color:hsl(189, 41%, 97%);
+border-radius: 5px;
+border: none;
+text-align: right;
+font-size: 14px;
+}
+.tip{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 15px;
+    
+}
+.person{
+    background-image: url(images/icon-person.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 10px;
+    background-size: 13px;
+}
+.amount{
+    background-color: hsl(183, 100%, 15%);
+    height: 150px;
+    width: 200px;
+    margin-top: 20px;
+    font-size: 12px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    gap: 20px;
+
+
+}
+.tip-amnt,.tamnt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.tip-value,.fill-tamnt{
+    font-size: 30px;
+    color: hsl(172, 67%, 45%) ;
+}
+#rst{
+    background-color: hsl(172, 67%, 45%);
+    width: 100%;
+    color:  hsl(183, 100%, 15%);
+    font-size: 15px;
+  }
+  .tip-at :nth-child(2){
+font-size: 12px;
+color: hsl(184, 14%, 56%);
+  }
+  .total{
+    font-size: 12px;
+    color: hsl(184, 14%, 56%);
+  }
+
+
+  @font-face {
+    font-family: SpaceMono;
+    src: url(fonts/Space_Mono/SpaceMono-Regular.ttf);
+  }
+
+@media screen and (min-width:481px){
+    .tip-calculate{
+        height:230px;
+        width:500px;
+        background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+}
+button{
+    height: 25px;
+    width: 25%;
+    border: none;
+}
+#custom{
+   width: 25%; 
+   height: auto;
+}
+input{
+    width: 90%;
+}
+
+.people{
+    display:flex;
+    flex-direction: column;
+}
+.tip{
+    width: 300px;
+}
+.calculater{
+}
+.amount{
+    background-color: hsl(183, 100%, 15%);
+    height: 190px;
+    width: 250px;
+    margin-top: 0px;
+    font-size: 12px;
+    border-radius: 5px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 20px;
+color: hsl(0, 0%, 100%);
+padding: 10px;
+
+}
+}
